@@ -73,6 +73,7 @@ nav{
 .list_item{
     font-family: 'circular';
     font-size: 1em;
+    font-weight: bold;
     padding: 0 20px 0 20px;
 }
 
