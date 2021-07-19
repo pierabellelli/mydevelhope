@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'circular';
+    src: url(https://open.scdn.co/fonts/CircularSpUIv3T-Black.woff2);
+    font-weight: bold;
+    font-style: normal;
+    font-display: auto;
+}
+@font-face {
+    font-family: 'circular';
+    src: url(https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff2);
+    font-weight: normal;
+    font-style: bolder;
+    font-display: auto;
+}
+@font-face {
+    font-family: 'circular';
+    src: url(https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff2);
+    font-weight: 300;
+    font-style: bolder;
+    font-display: auto;
+}
+
+.nav_container{
+    background-color: #000;
+}
+
+.logo{
+    max-width: 200px;
+    min-width: 120px;    
+}
+
+.logo a svg{
+    fill: #fff;
+}
+
+.text-white{
+    color: #fff;
+}
+
+nav{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0 20px 0 ;
+}
+
+.menu_list{
+    display: flex;
+    text-align: right;
+}
+
+.services{
+    display: flex;
+}
+
+.user{
+    display: flex;
+}
+
+.menu_list ul li{
+    list-style: none;
+
+}
+.list_item{
+    font-family: 'circular';
+    font-size: 1em;
+    padding: 0 20px 0 20px;
+}
+
+.services{
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+
+.user{
+    padding-left: 20px;
+}
