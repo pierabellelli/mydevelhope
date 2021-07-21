@@ -26,7 +26,9 @@
     font-style: bolder;
     font-display: auto;
 }
-
+html{
+   font-family: 'circular', sans-serif; 
+}
 .nav_container{
     background-color: #000;
 }
@@ -93,4 +95,66 @@ nav{
 
 .user{
     padding-left: 20px;
+}
+
+.hero_section{
+    background-image: url(/assets/img/home/spotify_hero.svg);
+    background-color: rgb(41, 65, 171) ;
+    background-position: center top 30%;
+    background-repeat: no-repeat;
+    background-size: 175%;
+    background-position: 46% 4%;
+    height: 100vh;
+    background-position: 46% 4%;  
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;}
+
+.hero_section h1{
+    font-family: 'circular';
+    font-size: 156px;
+    color: #1ed760;
+    width: 800px;
+    text-indent: -3.3em;
+    transform: translate(125px, 0px);
+    font-size: 156px;
+    line-height: 166px;
+    padding-bottom: 40px;
+    text-indent: -3.3em;
+}
+
+.header_container{
+    text-align: center;
+}
+
+.hero_section p{
+    padding: 0px 0px 1em;    
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #1ed760;
+}
+
+.hero_section a{
+    border: 0px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #2941AB;
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: .9em;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: normal;
+    
+}
+
+.hero_section a:hover{
+    font-size: 1em;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
